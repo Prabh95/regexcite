@@ -20,4 +20,29 @@ packageVersion("devtools")
 create_package("~/path/to/regexcite")
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+
+library(devtools)
+```
+
+```{r}
+use_git()
+```
+
+```{r}
+(x <- "alfa,bravo,charlie,delta")
+```
+
+```{r}
+unlist(strsplit(x, split = ","))
+
+```
+
+```{r}
+use_r("strsplit1")
+
+```
+
+```{r}
+load_all()
+```
